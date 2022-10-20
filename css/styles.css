@@ -73,7 +73,8 @@ header p {
 
 #listas {
     display: flex;
-    flex-direction: row;;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     padding-top: 20px;
@@ -82,6 +83,7 @@ header p {
 
 #listas h2{
     margin-bottom: 20px;
+    color:#4d4d4d
 }
 
 #listas img{
@@ -137,7 +139,7 @@ footer {
     }
 
     #listas {
-        flex-direction: row;
+        flex-direction: center;
         flex-wrap: wrap;
     }
     
@@ -147,10 +149,9 @@ footer {
     }
 
     #comunidade {
-        flex-direction: row;
+        flex-direction: center;
         flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
+        align-items: flex;
         margin: 0 auto;
     }
     
