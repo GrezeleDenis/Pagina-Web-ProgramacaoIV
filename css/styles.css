@@ -1,29 +1,3 @@
-#site {
-width: 1000px;
-height: 700px;
-margin-top:0;
-margin-left: auto;
-margin-bottom:0;
-margin-right: auto;
-}
-
-header{
-    background-image: url('../img/fundo.webp');
-    background-size: cover;
-    color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    align-items: center, left;
-    text-align: center, left;
-    text-emphasis-color: #f1f1f1;
-    padding: 200px;
-}
-
-header p {
-    margin-bottom: 2em;
-    color: #f1f1f1;
-}
-
 body{
     font-family: "Comic Sans MS", "Comic Sans", "cursive";
     color: #3366ff;
@@ -78,6 +52,22 @@ nav ul li a {
     color: #f1f1f1;
 }
 
+header{
+    background-image: url('../img/fundo.webp');
+    background-size: cover;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center, left;
+    text-align: center, left;
+    text-emphasis-color: #f1f1f1;
+    padding: 200px;
+}
+
+header p {
+    margin-bottom: 2em;
+    color: #f1f1f1;
+}
 
 
 
@@ -146,6 +136,16 @@ footer {
         justify-content: center;
     }
 
+    #listas {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #listas h2 {
+        width: 100%;
+        text-align: center;
+    }
+
     #comunidade {
         flex-direction: row;
         flex-wrap: wrap;
@@ -165,13 +165,4 @@ footer {
         padding: 0 10px;
     }
 
-    #listas {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    
-    #listas h2 {
-        width: 100%;
-        text-align: center;
-    }
 }
